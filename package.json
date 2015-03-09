@@ -1,6 +1,6 @@
 {
   "name": "generic-typescript-require",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "transparently require() typescript 1.4+ or jsx-typescript from node",
   "main": "index.js",
   "peerDependencies": {
