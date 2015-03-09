@@ -1,0 +1,21 @@
+{
+  "name": "generic-typescript-require",
+  "version": "0.1.0",
+  "description": "transparently require() typescript 1.4+ or jsx-typescript from node",
+  "main": "index.js",
+  "peerDependencies": {
+    "typescript": "^1.4.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "1.12.0"
+  },
+  "scripts": {
+    "test": "jasmine-node index.spec.js"
+  },
+  "repository": "jonjaques/generic-typescript-require",
+  "authors": [
+    "Pete Hunt",
+    "Jon Jaques"
+  ],
+  "license": "MIT"
+}
