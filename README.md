@@ -1,4 +1,4 @@
-# node-typescript
+# generic-typescript-require
 transparently require() typescript 1.4+ or jsx-typescript from node
 
 Heavily inspired by Pete Hunt's [`node-jsx`](https://github.com/petehunt/node-jsx)
@@ -7,7 +7,7 @@ Heavily inspired by Pete Hunt's [`node-jsx`](https://github.com/petehunt/node-js
 
 ### Default
 ```
-require('node-typescript').install()
+require('generic-typescript-require').install()
 ```
 
 ### Other options
@@ -15,6 +15,6 @@ require('node-typescript').install()
 > npm install --save jsx-typescript
 
 // app.js
-require('node-typescript')
+require('generic-typescript-require')
   .install({ compiler: 'jsx-typescript', extension: '.tsx'})
 ```
